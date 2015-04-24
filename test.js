@@ -16,11 +16,11 @@ var concat = require('./')
  * iteratees.
  */
 
-function playerUp (key, targetVal, sourceVal) {
+function playerUp (key, sourceVal, targetVal) {
   return key === 'player' ? sourceVal.toUpperCase() : sourceVal
 }
 
-function ignoreUndefined (key, targetVal, sourceVal) {
+function ignoreUndefined (key, sourceVal, targetVal) {
   return sourceVal === undefined ? targetVal : sourceVal
 }
 

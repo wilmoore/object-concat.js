@@ -71,12 +71,17 @@ assert.equal(gamedata.player, 'ISAAC')
  * `[sources]: (…Object)` _The source objects_.
  * `[iteratee]: (Function)` _Function that produces desired target value_ **(must be last parameter)**.
      * `key: (String)` _Object key name_.
-     * `targetVal: (*)` _Object target value_.
      * `sourceVal: (*)` _Object source value_.
+     * `targetVal: (*)` _Object target value_.
 
 ###### Returns
 
  * `(Object)` _The new object_.
+
+## Related
+
+* [object-concat-defined](https://github.com/wilmoore/object-concat-defined.js)
+  * Assigns properties of source object(s) to a new object ignoring `undefined` source values.
 
 ## Alternatives
 

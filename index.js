@@ -1,6 +1,6 @@
 'use strict'
 
-/**
+/*!
  * exports.
  */
 
@@ -26,20 +26,20 @@ function concat (/* [sources], [iteratee] */) {
   var out = {}
 
   while (++idx < end) {
-    copy(out, arguments[idx], tee)
+    copy(arguments[idx], out, tee)
   }
 
   return out
 }
 
 /**
- * Copy source properties to target.
+ * Copy properties from source to target.
+ *
+ * @param {Object} source
+ * Object to get properties from.
  *
  * @param {Object} target
  * Object to assign properties to.
- *
- * @param {Object} source
- * Object to pull properties from.
  *
  * @param {Function|Null} iteratee
  * Function for transforming target values.
@@ -48,10 +48,10 @@ function concat (/* [sources], [iteratee] */) {
  * New object.
  */
 
-function copy (target, source, iteratee) {
+function copy (source, target, iteratee) {
   for (var key in Object(source)) {
     if (iteratee) {
-      target[key] = iteratee(key, target[key], source[key])
+      target[key] = iteratee(key, source[key], target[key])
     } else {
       target[key] = source[key]
     }
