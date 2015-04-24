@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to this project will be documented in this file (keepachangelog.com).
 
+## 0.2.2 - 2015-04-23
+### Changed
+- `undefined` to `void 0`
+
 ## 0.2.1 - 2015-04-23
 ### Changed
 - "standard": "^3.7.1"
