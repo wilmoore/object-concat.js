@@ -21,7 +21,7 @@ function playerUp (key, sourceVal, targetVal) {
 }
 
 function ignoreUndefined (key, sourceVal, targetVal) {
-  return sourceVal === undefined ? targetVal : sourceVal
+  return sourceVal === void 0 ? targetVal : sourceVal
 }
 
 /*!
