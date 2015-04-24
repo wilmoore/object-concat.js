@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to this project will be documented in this file (keepachangelog.com).
 
+## 0.2.4 - 2015-04-24
+### Changed
+- changed readme example to use correct signature for example iteratee function.
+
 ## 0.2.3 - 2015-04-23
 ### Removed
 - removed related section from readme.
