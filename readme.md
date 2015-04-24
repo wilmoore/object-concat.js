@@ -41,7 +41,7 @@ var concat = require('object-concat');
 
 var defaults = { level: 1 }
 var restored = { player: 'isaac', level: 5 }
-var gamedata = concat(defaults, restored, function (key, targetVal, sourceVal) {
+var gamedata = concat(defaults, restored, function (key, sourceVal, targetVal) {
   return key === 'player' ? sourceVal.toUpperCase() : sourceVal
 })
 
