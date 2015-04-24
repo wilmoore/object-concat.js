@@ -78,11 +78,6 @@ assert.equal(gamedata.player, 'ISAAC')
 
  * `(Object)` _The new object_.
 
-## Related
-
-* [object-concat-defined](https://github.com/wilmoore/object-concat-defined.js)
-  * Assigns properties of source object(s) to a new object ignoring `undefined` source values.
-
 ## Alternatives
 
 > Most, if not all of the alternatives listed have varying semantics so be careful which you choose for your own applications.
