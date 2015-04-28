@@ -1,14 +1,15 @@
-# object-concat [![Build Status](http://img.shields.io/travis/wilmoore/object-concat.js.svg)](https://travis-ci.org/wilmoore/object-concat.js) [![Code Climate](https://codeclimate.com/github/wilmoore/object-concat.js/badges/gpa.svg)](https://codeclimate.com/github/wilmoore/object-concat.js) [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
-
+# object-concat
 > Assigns properties of source object(s) to a new object.
 
-###### npm install
+[![Build Status](http://img.shields.io/travis/wilmoore/object-concat.js.svg)](https://travis-ci.org/wilmoore/object-concat.js) [![Code Climate](https://codeclimate.com/github/wilmoore/object-concat.js/badges/gpa.svg)](https://codeclimate.com/github/wilmoore/object-concat.js) [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
 
-    npm install object-concat --save
+```shell
+npm install object-concat --save
+```
 
 ###### npm stats
 
-[![npm](https://img.shields.io/npm/v/object-concat.svg)](https://www.npmjs.org/package/object-concat) [![NPM downloads](http://img.shields.io/npm/dm/object-concat.svg)](https://www.npmjs.org/package/object-concat) [![Dependency Status](https://gemnasium.com/wilmoore/object-concat.js.svg)](https://gemnasium.com/wilmoore/object-concat.js) 
+[![npm](https://img.shields.io/npm/v/object-concat.svg)](https://www.npmjs.org/package/object-concat) [![NPM downloads](http://img.shields.io/npm/dm/object-concat.svg)](https://www.npmjs.org/package/object-concat) [![Dependency Status](https://gemnasium.com/wilmoore/object-concat.js.svg)](https://gemnasium.com/wilmoore/object-concat.js)
 
 ## Example
 
@@ -89,5 +90,4 @@ assert.equal(gamedata.player, 'ISAAC')
 
 ## Licenses
 
-[![LICENSE](http://img.shields.io/npm/l/object-concat.svg)](license)
-
+[![GitHub license](https://img.shields.io/github/license/wilmoore/object-concat.js.svg)](https://github.com/wilmoore/object-concat.js/blob/master/license)

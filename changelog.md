@@ -1,6 +1,14 @@
 # Change Log
 All notable changes to this project will be documented in this file (keepachangelog.com).
 
+## 0.2.5 - 2015-04-28
+### Added
+- add `.gitattributes`.
+
+### Changed
+- update `.travis.yml`.
+- reog badges.
+
 ## 0.2.4 - 2015-04-24
 ### Changed
 - changed readme example to use correct signature for example iteratee function.
