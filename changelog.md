@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to this project will be documented in this file (keepachangelog.com).
 
+## 0.2.6 - 2015-04-29
+### Added
+- fixpack.
+
 ## 0.2.5 - 2015-04-28
 ### Added
 - add `.gitattributes`.

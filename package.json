@@ -3,6 +3,9 @@
   "description": "Assigns properties of source object(s) to a new object.",
   "version": "0.2.5",
   "author": "Wil Moore III <wil.moore@wilmoore.com>",
+  "bugs": {
+    "url": "https://github.com/wilmoore/object-concat.js/issues"
+  },
   "dependencies": {},
   "devDependencies": {
     "istanbul": "^0.3.13",
@@ -12,8 +15,11 @@
     "tape": "^4.0.0",
     "tape-catch": "^1.0.4"
   },
+  "homepage": "https://github.com/wilmoore/object-concat.js",
   "keywords": [
     "$.extend",
+    "Object.assign",
+    "Object.create",
     "_.assign",
     "_.extend",
     "assign",
@@ -26,8 +32,6 @@
     "jQuery.extend",
     "lodash.extend",
     "object",
-    "Object.assign",
-    "Object.create",
     "predicate",
     "transform",
     "underscore.extend"
