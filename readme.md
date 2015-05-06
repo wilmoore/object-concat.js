@@ -16,7 +16,7 @@ npm install object-concat --save
 ###### basic
 
 ```js
-var concat = require('object-concat');
+var concat = require('object-concat')
 
 var defaults = { level: 1 }
 var restored = { player: 'isaac', level: 5 }
@@ -38,7 +38,7 @@ assert.notDeepEqual(gamedata, restored)
 ###### transform
 
 ```js
-var concat = require('object-concat');
+var concat = require('object-concat')
 
 var defaults = { level: 1 }
 var restored = { player: 'isaac', level: 5 }

@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to this project will be documented in this file (keepachangelog.com).
 
+## 0.2.7 - 2015-05-06
+### Changed
+- removed semi-colon from examples.
+
 ## 0.2.6 - 2015-04-29
 ### Added
 - fixpack.
