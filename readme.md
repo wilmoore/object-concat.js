@@ -52,6 +52,7 @@ assert.equal(gamedata.player, 'ISAAC')
 
 ## Features
 
+* Concatenative inheritance.
 * Return a new object instead of mutating a `target` object.
 * Subsequent source properties overwrite previous.
 * Supports optional `iteratee` function allowing transformation of target values.

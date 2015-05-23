@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to this project will be documented in this file (keepachangelog.com).
 
+## 0.2.9 - 2015-05-22
+### Added
+- Concatenative inheritance.
+
 ## 0.2.8 - 2015-05-22
 ### Added
 - keywords.
